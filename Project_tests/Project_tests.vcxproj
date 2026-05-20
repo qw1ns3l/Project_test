@@ -126,7 +126,11 @@
     <None Include="test_plan.md" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="console_io.cpp" />
     <ClCompile Include="tests.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="console_io.hpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
